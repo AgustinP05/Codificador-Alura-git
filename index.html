@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="programa.js"></script>
+</head>
+<body>
+    <header>
+        <h1><a href="https://www.aluracursos.com" target="_blank"><img src="imagenes/LogoAlura.png" alt="Alura"></a></h1>
+    </header>
+
+    <div class="contenedor">
+
+        <textarea id="campoTexto" name="textarea" class="izquierda" rows="10" cols="50" placeholder="Ingrese el texto aqui"></textarea>
+        
+        <div>
+       <!-- <img class="faltaRespuesta" src="imagenes/respuesta.png" alt=""> -->
+       
+       <textarea id="campoResultado" class="derecha" name="textarea" rows="12" cols="50" placeholder="La respuesta es..."></textarea>
+    </div>
+        
+        
+    </div>
+
+    
+
+
+    <div class="botonera">
+        <ul>
+            <li class="boton-izq"><button onclick="accionEncriptar()">Encriptar</button></li>
+            <li><button onclick="accionDesencriptar()">Desencriptar</button></li>
+            <li><button id="boton-der" onclick="accionCopiar()">Copiar Resultado</button></li>
+        </ul>
+    </div>
+</body>
+</html>
